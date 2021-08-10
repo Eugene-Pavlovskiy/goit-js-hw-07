@@ -17,7 +17,7 @@ function createBoxes(amount){
     for (let i = 0; i < amount; i++) {
         startlSize += 1;
         const newDiv = `<div style="width: ${startlSize}px;
-        height: ${startlSize}px; background-color: rgb(${random()}, ${random()}, ${random()}; display: flex)"></div>`;
+        height: ${startlSize}px; background-color: rgb(${random()}, ${random()}, ${random()})"></div>`;
         
          boxes.insertAdjacentHTML('beforeend', newDiv);
      }
