@@ -13,9 +13,9 @@ function random() {
   return Math.floor(Math.random() * 256);
 }
 function createBoxes(amount){
-   let startlSize = 200;
+   let startlSize = 20;
     for (let i = 0; i < amount; i++) {
-        startlSize += 1;
+        startlSize += 10;
         const newDiv = `<div style="width: ${startlSize}px;
         height: ${startlSize}px; background-color: rgb(${random()}, ${random()}, ${random()})"></div>`;
         
