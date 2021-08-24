@@ -4,6 +4,13 @@ const listItems = listCategories.querySelectorAll('.item');
 console.log(`В списке ${listItems.length} категории`);
 const h2Name = listCategories.getElementsByTagName('h2');
 listItems.forEach((el) => {
-    console.log('Категория : ', el.getElementsByTagName('h2')[0].textContent);
-    console.log('Количество элементов:', el.getElementsByTagName('li').length)
+    console.log('Категория : ', el.getElementsByTagName('h2')[0].textContent, 
+    'Количество элементов:', el.getElementsByTagName('li').length)
+    // console.log('Категория : ', el.getElementsByTagName('h2')[0].textContent);
+    // console.log('Количество элементов:', el.getElementsByTagName('li').length)
 })
+
+// console.log(
+//     `Категория - ${element.firstElementChild.textContent}, 
+//      Количество элементов - ${element.lastElementChild.children.length}`,
+//     ),

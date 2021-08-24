@@ -24,4 +24,3 @@ function makeGallery (images) {
 console.log(makeGallery (images));
 
 gallery.style.display = "flex";
-gallery.style.display = "flex";
